@@ -27,9 +27,6 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 
-
-<button on:click={signInWithGoogle} class="rounded-md bg-blue-400 text-white p-2">Sign in with Google</button>
-
 {#if user}
   {user}
 {/if}
